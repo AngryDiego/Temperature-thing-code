@@ -14,7 +14,7 @@ int main()
     for (int i = 0; i < WEEK_ARR; i++) {
         if (arr[i] > bigest_temp) {
             bigest_temp = arr[i];
-            h_t_d = arr[i];
+            h_t_d = i;
         }
     }
     cout << bigest_temp << endl << days[h_t_d] << endl;
