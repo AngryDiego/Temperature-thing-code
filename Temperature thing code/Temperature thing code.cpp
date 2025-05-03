@@ -7,6 +7,7 @@ int main()
     string days[WEEK_ARR] = { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
     double arr[WEEK_ARR] = {15.6, 12.8, 17.9, 14.2, 16.6, 18.1, 17.2};
 
+
     double bigest_temp = 0;
     double average_temp = 0;
     int h_t_d = 0; // Highest Temprature Day
